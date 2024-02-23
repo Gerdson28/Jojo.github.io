@@ -4,28 +4,37 @@
             padding: 0;
         }
         header {
-            background-color: #333;
-            color: #fff;
+            background-color: purple;
+            color: white;
             padding: 20px;
         }
         nav ul {
             list-style-type: none;
             padding: 0;
             margin: 0;
+        
+            
         }
         nav ul li {
             display: inline;
             margin-right: 20px;
+          
+            
         }
         nav ul li a {
             text-decoration: none;
             color: #fff;
+          
+            
         }
         section {
             padding: 20px;
         }
-        section h2 {
-            color: #333;
+        section h2,h3,h4,h5,h6 {
+            color: purple;
+        }
+        a h2,h3,h4,h5,h6 {
+          margin-top: 20px;
         }
         article {
             margin-top: 20px;
@@ -42,4 +51,4 @@
             position: fixed;
             bottom: 0;
             width: 100%;
-        }
+         }
